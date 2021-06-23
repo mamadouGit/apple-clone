@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: black;
+    
+    
+}
+.nav .logo{
+    margin-left: 60px;
+    padding-top: 10px;
+    
+}
+.nav .nav-desktop ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin-right: 60px;
+    padding-top: 10px;
+    
+    
+
+}
+.nav .nav-desktop ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav2{
+    
+    background-color:#F5F5F7 ;
+    height: 50px;
+}
+.nav2 p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+}
+.nav2 {
+    
+    margin-left: 100px;
+    
+}
+.nav2 p span{
+    font-weight: bolder;
+}
+ p a{
+    text-decoration: none;
+    
+}
+.first{
+    display: block;
+    text-align: center;
+}
+.first h1{
+    padding: 40px 0 10px 0;
+
+}
+.first h3{
+
+}
+.first p{
+    color:#A2A2A6 ;
+}
+.second{
+    display: flex;
+    grid-template-columns: 1fr 1fr ;
+    text-align: center;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.second .mas-info a{
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+.second .comp a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+.bac-12{
+    
+    width: 98vw;
+    height: 624px;
+    background-image: url("/iphone_12_updated__jepm2xpxncuy_large.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.bac-ipro12{
+    background-image: url("/iphone_12_pro_us__e5oyysg4k0ya_large.jpg");
+    width: 98vw;
+    height: 624px;
+    background-size: cover;
+    background-position: center;
+    margin-top:10px ;
+}
+.ipr12 .bac-ipro12 h1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 1000;
+}
+.ipr12 .bac-ipro12 h3{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.ipr12 .bac-ipro12 p{
+    color:#A2A2A6  ;
+    text-align: center;
+    padding-top: 10px;
+}
+.bac-ipad12{
+    width: 98vw;
+    height: 500px;
+    background-image: url("/hero_ipad_pro__gl982dtu49im_large.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+}
+.bac-ipad12 h1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.bac-ipad12 h3{
+
+color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.bac-ipad12 p{
+    color:#A2A2A6 ;
+    text-align: center;
+    padding-top: 20px;
+}
