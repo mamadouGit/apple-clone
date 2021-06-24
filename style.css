@@ -37,8 +37,12 @@
     height: 50px;
 }
 .nav2 p{
+    display: flex;
     text-align: center;
     padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 }
@@ -68,6 +72,10 @@
 .first p{
     color:#A2A2A6 ;
 }
+.nav-mobile{
+    opacity: 0;
+    display: flex;
+}
 .second{
     display: flex;
     grid-template-columns: 1fr 1fr ;
@@ -94,6 +102,19 @@
     background-position: center;
     background-size: cover;
 }
+.bac-12 .first p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bac-12 .first h1{
+    
+    margin-top: 30px;
+}
+.bac-12 .first h3{
+    margin-top: 20px;
+}
 .bac-ipro12{
     background-image: url("/iphone_12_pro_us__e5oyysg4k0ya_large.jpg");
     width: 98vw;
@@ -114,6 +135,10 @@
     padding-top: 20px;
 }
 .ipr12 .bac-ipro12 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     color:#A2A2A6  ;
     text-align: center;
     padding-top: 10px;
@@ -138,7 +163,39 @@ color: white;
     padding-top: 20px;
 }
 .bac-ipad12 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     color:#A2A2A6 ;
     text-align: center;
     padding-top: 20px;
+    
+}
+.nav-mobile ul{
+   
+    
+    
+}
+
+@media only screen and (max-width :700px){
+    .nav-desktop{
+        opacity: 0;
+    }
+    .nav-mobile{
+        opacity: 1;
+
+    }
+    .nav-mobile ul{
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+        align-items: center;
+        width: 90vw;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .logo img{
+        opacity: 0;
+    }
 }
